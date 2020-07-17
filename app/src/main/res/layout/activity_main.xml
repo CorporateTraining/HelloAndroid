@@ -1,30 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="50dp"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_marginBottom="30dp"
-        android:textAllCaps="false"
-        android:text="@string/button_1" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_marginBottom="30dp"
-        android:textAllCaps="false"
-        android:text="@string/button_2" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_marginBottom="30dp"
-        android:textAllCaps="false"
-        android:text="@string/button_3" />
+        android:layout_height="wrap_content">
 
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="@string/android_practice"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_1"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_2"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_3"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_4"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_5"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_6"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_7"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_8"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_9"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/button_10"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
