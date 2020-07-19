@@ -14,5 +14,11 @@
     <string name="hello">Hello!</string>
     <string name="signup">Signup</string>
     <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_connect_with">or connect with</string>
+    <string name="signup_with_email">Signup with email</string>
 
 </resources>
