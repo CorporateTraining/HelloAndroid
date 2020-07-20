@@ -20,4 +20,7 @@
     <string name="forgot_password">忘记密码?</string>
     <string name="or_connect_with">其他登录方式</string>
     <string name="signup_with_email">邮箱注册</string>
+    <string name="twitter">推特</string>
+    <string name="facebook">脸书</string>
+    <string name="aware">aware</string>
 </resources>

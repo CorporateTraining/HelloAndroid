@@ -20,5 +20,8 @@
     <string name="forgot_password">Forgot password?</string>
     <string name="or_connect_with">or connect with</string>
     <string name="signup_with_email">Signup with email</string>
+    <string name="twitter">twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="aware">aware</string>
 
 </resources>
