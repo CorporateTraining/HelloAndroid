@@ -7,4 +7,5 @@
     <color name="colorOrConnectWith">#b2b2b2</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorText">#222222</color>
+    <color name="colorTextTitle">#FF000000</color>
 </resources>

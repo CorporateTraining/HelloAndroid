@@ -6,9 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="@color/colorTextTitle"
+        android:text="@string/android_practice"
+        android:textSize="18sp" />
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -16,19 +25,12 @@
             android:layout_margin="50dp"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
-                android:text="@string/android_practice"
-                android:textSize="18sp" />
-
             <Button
+                android:id="@+id/constraint_layout"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:layout_marginBottom="30dp"
                 android:text="@string/button_1"
-                android:onClick="openNewActivity"
                 android:textAllCaps="false" />
 
             <Button
