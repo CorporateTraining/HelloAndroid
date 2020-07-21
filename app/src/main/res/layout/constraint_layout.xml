@@ -15,7 +15,7 @@
         android:textSize="24sp"
         android:textColor="@color/colorTextTitle"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/image"
@@ -37,7 +37,7 @@
         android:layout_marginTop="70dp"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/image"
-        app:layout_constraintLeft_toLeftOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/login"
@@ -49,6 +49,6 @@
         android:layout_marginTop="20dp"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@id/signup"
-        app:layout_constraintLeft_toLeftOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
